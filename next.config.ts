@@ -1,8 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
   output: "export",
   basePath: "/comp2156",
-  trailingSlash: true,
   images: {
     unoptimized: true,
   },
